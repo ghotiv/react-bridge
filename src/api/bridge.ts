@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { BridgeTransaction, BridgeStats, ChainInfo, TokenGroup, TransactionPair } from '../types/bridge';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3030';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:303';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
