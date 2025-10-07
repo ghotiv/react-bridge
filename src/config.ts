@@ -1,4 +1,4 @@
-import { sepolia, baseSepolia, bscTestnet, polygonAmoy, zksyncSepoliaTestnet } from '@reown/appkit/networks'
+import { sepolia, baseSepolia, bscTestnet, polygonAmoy, zksyncSepoliaTestnet,blastSepolia } from '@reown/appkit/networks'
 import type { AppKitNetwork } from '@reown/appkit/networks'
 import { EthersAdapter } from '@reown/appkit-adapter-ethers'
 
@@ -13,6 +13,6 @@ export const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
-export const networks = [sepolia, baseSepolia, zksyncSepoliaTestnet, polygonAmoy, bscTestnet] as [AppKitNetwork, ...AppKitNetwork[]]
+export const networks = [sepolia, baseSepolia, zksyncSepoliaTestnet, polygonAmoy, bscTestnet,blastSepolia] as [AppKitNetwork, ...AppKitNetwork[]]
 
 export const ethersAdapter = new EthersAdapter();

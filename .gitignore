@@ -146,3 +146,4 @@ LOGO_GUIDE.md
 some_data
 dist
 .env*
+.DS_Store
